@@ -6,8 +6,8 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome!");
         while (true) {
-            System.out.println("1 - Add an order");
-            System.out.println("2 - Process an order");            
+            System.out.println("1 - Enqueue an order");
+            System.out.println("2 - Dequeue an order");            
             System.out.println("3 - Show orders");
             System.out.println("4 - Peek");
             System.out.println("5 - Exit");
