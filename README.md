@@ -1,19 +1,18 @@
-## Getting Started
+# Queue
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is a simple implementation of a Queue data structure in Java. The Queue is a linear data structure which follows the First-In-First-Out (FIFO) principle. The first element added is the first one to be removed.
+It consists of one a LinkedList, Nodes, and Orders. 
+The Order class holds information about an element stored in the queue.  
+The Node class represents a node in the linked list and stores an Order object and a reference to the next node.  
+The LinkedList class implements the queue using a linked list and has methods to add (enqueue()), remove (dequeue()), and display the queue (showOrders()).
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+## Screenshots
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+See orders and enqueue 1:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+  <img src="screenshots/queue1.png" />
+  
+Process two orders and the first in are removed:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# SimpleQueue
+  <img src="screenshots/queue2.png"  /> 
