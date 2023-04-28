@@ -11,23 +11,12 @@ public class LinkedList {
         return this.size;
     }
 
-    public void peek(){
+    public void peek() {
         if (head == null) {
             System.out.println("The queue is empty");
-        } else if (this.head.getNext() == null) {
-            System.out.println("First in line: "+ head.getValue());
         } else {
-            Node last = this.head.getNext();
-            while (true) {                
-                if (last.getNext() == null) {
-                    System.out.println("First in line: "+ last.getValue());
-                    break;
-                } else {
-                    last = last.getNext();
-                }
-            }
+            System.out.println("First in line: " + head.getValue());
         }
-        size++;
     }
     
 
